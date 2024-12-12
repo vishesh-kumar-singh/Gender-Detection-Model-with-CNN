@@ -27,7 +27,7 @@ Then for the live detection I used `VideoCapture` from openCV and for face detec
 ---
 
 ## Accuracy of Model
-So far I achieved an accuracy of `94.499%` over the test data of 2000 images which resulted in the following confusion matrix:  
+So far I achieved an accuracy of `95.499%` over the test data of 1000 images which resulted in the following confusion matrix:  
 ![Confusion Matrix](Confusion-Matrix.png)
 
 ---
@@ -35,7 +35,7 @@ So far I achieved an accuracy of `94.499%` over the test data of 2000 images whi
 ## Example Images
 Here are some sample outputs from the project:  
 ![Demo Output](Demo-Output-Images.png)  
-Although you may notice that Hermoine in the last image is classified as male, but there are total 25 faces in those 20 images so getting one wrong makes accuracy of 96% which still according to my accuracy over training set of 94.5% :)
+Although you may notice that Hermoine in the last image is classified as male, but there are total 25 faces in those 20 images so getting one wrong makes accuracy of 96% which still according to my accuracy over training set of 95.5% :)
 
 
 ## Real-Time Webcam Detection
